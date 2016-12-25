@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StudyJSP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudyJSP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StudyJSP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StudyJSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="ojdbc6" />
+          <element id="file-copy" path="E:/Library/javaJar/jstl.jar" />
+          <element id="file-copy" path="E:/Library/javaJar/standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
